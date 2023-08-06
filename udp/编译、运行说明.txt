@@ -1,0 +1,13 @@
+udp_server.c 是服务器端的代码
+udp_client.c 是客户端的代码
+
+用如下命令编译
+gcc -g -o udp_server udp_server.c
+gcc -g -o udp_client udp_client.c
+
+在一个命令窗口上运行，运行服务器端的代码，用如下命令
+./udp_server
+
+在另外一个命令窗口上运行，运行客户端的代码，用如下命令
+./udp_client 192.168.100.101
+注意:192.168.100.101必须是服务器的ip地址
