@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("hello world\n);
+	printf("ocd:hello world\n);
 
 	return 0;
 }
